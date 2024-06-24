@@ -1,0 +1,30 @@
+{
+  "question": "How do you come to school?",
+  "choices": [
+    [
+      "Auto/Rickshaw",
+      43,
+      "Auto Rickshaw"
+    ],
+    [
+      "Walking",
+      32,
+      "Pedestrian"
+    ],
+    [
+      "Own vehicle",
+      48,
+      "Automobile"
+    ],
+    [
+      "School Bus",
+      57,
+      "BUS"
+    ],
+    [
+      "None",
+      13,
+      "Cross Mark"
+    ]
+  ]
+}
