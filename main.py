@@ -116,5 +116,6 @@ def main(page:ft.Page):
     right_col = ft.Column(controls=[chart_main],expand=True)
     page.add(CreateAppBar(), ft.Container(content=ft.Row(controls=[left_col, right_col]),margin=ft.margin.only(top=10,left=60)))
     page.update()
+
 #ft.app(main)
 ft.app(main,view=ft.AppView.WEB_BROWSER)
