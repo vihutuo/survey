@@ -2,6 +2,7 @@ import flet as ft
 import json
 import random
 import unicodedata
+
 def WriteToFile(filename,data):
     f = open(filename, "w")
     json.dump(data, f,indent=2)
