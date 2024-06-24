@@ -8,6 +8,7 @@ def WriteToFile(filename, data):
     json.dump(data, f,indent=2)
     f.close()
 
+
 def LoadFromFile(filename):
     f = open(filename,"r")
     data = json.load(f)
