@@ -3,7 +3,7 @@ import json
 import random
 import unicodedata
 
-def WriteToFile(filename,data):
+def WriteToFile(filename, data):
     f = open(filename, "w")
     json.dump(data, f,indent=2)
     f.close()
